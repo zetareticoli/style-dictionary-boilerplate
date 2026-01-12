@@ -1,4 +1,4 @@
-# Style Dictionary Workshop
+# Style Dictionary Boilerplate
 
 Repository di esempio per workshop sui design tokens con Style Dictionary. Questo progetto mostra come convertire design tokens da Figma in variabili CSS, SCSS e JavaScript utilizzando Style Dictionary.
 
