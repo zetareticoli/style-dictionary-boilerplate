@@ -1,0 +1,47 @@
+{
+  "color": {
+    "brand": {
+      "primary": { "value": "{color.base.blue.600}", "type": "color" },
+      "secondary": { "value": "{color.base.gray.700}", "type": "color" },
+      "accent": { "value": "{color.base.green.500}", "type": "color" }
+    },
+    "semantic": {
+      "success": { "value": "{color.base.green.600}", "type": "color" },
+      "warning": { "value": "{color.base.yellow.500}", "type": "color" },
+      "error": { "value": "{color.base.red.600}", "type": "color" },
+      "info": { "value": "{color.base.blue.500}", "type": "color" }
+    },
+    "text": {
+      "primary": { "value": "{color.base.gray.900}", "type": "color" },
+      "secondary": { "value": "{color.base.gray.600}", "type": "color" },
+      "tertiary": { "value": "{color.base.gray.500}", "type": "color" },
+      "inverse": { "value": "{color.base.white}", "type": "color" },
+      "disabled": { "value": "{color.base.gray.400}", "type": "color" }
+    },
+    "background": {
+      "primary": { "value": "{color.base.white}", "type": "color" },
+      "secondary": { "value": "{color.base.gray.50}", "type": "color" },
+      "tertiary": { "value": "{color.base.gray.100}", "type": "color" },
+      "inverse": { "value": "{color.base.gray.900}", "type": "color" }
+    },
+    "border": {
+      "default": { "value": "{color.base.gray.300}", "type": "color" },
+      "subtle": { "value": "{color.base.gray.200}", "type": "color" },
+      "strong": { "value": "{color.base.gray.400}", "type": "color" },
+      "inverse": { "value": "{color.base.white}", "type": "color" }
+    },
+    "surface": {
+      "default": { "value": "{color.base.white}", "type": "color" },
+      "hover": { "value": "{color.base.gray.50}", "type": "color" },
+      "active": { "value": "{color.base.gray.100}", "type": "color" },
+      "disabled": { "value": "{color.base.gray.100}", "type": "color" }
+    },
+    "interactive": {
+      "default": { "value": "{color.brand.primary}", "type": "color" },
+      "hover": { "value": "{color.base.blue.700}", "type": "color" },
+      "active": { "value": "{color.base.blue.800}", "type": "color" },
+      "disabled": { "value": "{color.base.gray.300}", "type": "color" }
+    }
+  }
+}
+
