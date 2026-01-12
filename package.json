@@ -1,0 +1,28 @@
+{
+  "name": "style-dictionary-workshop",
+  "version": "1.0.0",
+  "description": "Repository di test per workshop su Style Dictionary e design tokens",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "build:tokens": "style-dictionary build",
+    "clean": "rm -rf build/",
+    "watch": "nodemon --watch tokens/ --exec npm run build"
+  },
+  "keywords": [
+    "style-dictionary",
+    "design-tokens",
+    "figma",
+    "css",
+    "scss",
+    "design-system"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "style-dictionary": "^3.9.0"
+  },
+  "dependencies": {}
+}
+
