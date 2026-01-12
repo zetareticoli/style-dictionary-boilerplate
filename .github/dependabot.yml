@@ -1,0 +1,14 @@
+# Configurazione Dependabot per aggiornamenti automatici delle dipendenze
+
+version: 2
+updates:
+  # Aggiornamenti per npm
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+
